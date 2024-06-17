@@ -1,3 +1,12 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
 .menu-hamburguer{
-    background-image: url("../css/")
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/AluraBooks/Menu.svg);
+    display: inline-block;
+background-position: center;
+background-repeat: no-repeat;
 }
