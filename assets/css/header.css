@@ -18,6 +18,9 @@ background-repeat: no-repeat;
 
 .menu-lista{
     display: none;
+    position:absolute;
+    width:60vw;
+    text-transform: uppercase;
 }
 
 .seletor-menu:checked~ .menu-lista{
@@ -30,4 +33,16 @@ background-repeat: no-repeat;
 }
 .menu-lista-titulo{
     color: var(--laranja);
+    font-weight: 700;
+}
+.seletor-menu{
+    display: none;
+}
+.menu-lista-link{
+    background-image: var(--azul-degrade);
+    --webkit-background-clip:text:
+    --webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+
 }
