@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(header.css);
+@import url(banner.css);
 
 :root{
     --branco: #FFFFFF;
