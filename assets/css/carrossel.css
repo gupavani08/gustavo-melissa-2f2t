@@ -48,3 +48,13 @@
     font-weight: 700;
     margin: 0.5em;
 }
+.descricao-texto{
+    font-size: 14px;
+}
+.botoes-ancora{
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+}
