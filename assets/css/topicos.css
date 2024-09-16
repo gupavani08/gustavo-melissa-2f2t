@@ -14,6 +14,14 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.topicos-item a{
-    color: var(--branco);
+.topicos-item{
+    margin: 2em 0.5em;
+}
+.topicos-link{
+color: var(--branco);/*cor do texto*/
+background-color: var(--laranja);/*cor de fundo*/
+text-decoration: none; /*decoraçao do texto*/
+padding: 1em;
+font-size: 14px;
+font-weight: 700;
 }
