@@ -16,11 +16,23 @@
     font-weight: 300;
     margin: 1em 0;
 }
-.contato-email{
+.contatos-email{
+    border: 1px solid var(--azul);
     padding: 1em;
-    border: 1px var(--azul);
+    color: var(--azul);
     border-radius: 24px;
     width: 90%;
+}
+.contatos-email::placeholder{
+    font-family: "poppins", sans-serif;
     color: var(--azul);
-
+    background: url(../img/AluraBooks/Email.svg) no-repeat;
+    padding-left: 2em;
+}
+hr{
+    margin: 0;
+}
+.rodape{
+    background-color: var(--branco);
+    
 }
